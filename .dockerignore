@@ -1,0 +1,6 @@
+/venv/
+/resources/
+./event.json
+/.idea/
+/__pycache__/
+./_test.py
