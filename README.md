@@ -37,3 +37,7 @@ Make query by adding eitehr one of following parameters to the url:
   will return the following JSON:
   
      `{"week": "2020W50", "meals": {"0": {"dinner": "Ofenfeta", "lunch": "Linsensuppe mit W\u00fcrstchen"}, "1": {"dinner": "Kartoffeltaschen mit Frischk\u00e4se", "lunch": "Fischst\u00e4bchen mit Dillsauce Salzkartoffeln und Salat"}, "2": {"dinner": "Chinabuffet", "lunch": "Paprikaschnitzel (H\u00e4hnchenbrust) dazu Reis und Salat"}, "3": {"dinner": "Pizza", "lunch": "Spaghetti mit Tomate-Mozzarella-Sauce"}, "4": {"dinner": "Chinabuffet", "lunch": "Schweinelachsschnitzel mit Brokkoli Sauce Hollandaise"}, "5": {"dinner": "Rahmgeschnetzeltes", "lunch": "Brunch 10.00 bis 11.00 Uhr"}, "6": {"dinner": "Schlemmerfilet \"Bordelaise\"", "lunch": "Brunch 10.00 bis 11.00 Uhr"}}}`
+     
+     
+# Example Code
+https://gist.github.com/olafyang/40d12ae42710a48a90c60a3874cc7ce8
