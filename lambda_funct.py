@@ -11,7 +11,7 @@ def handler(event, context):
         params_method = params['method']
     except KeyError:
         response = phrase_error('invalid parameters')
-        return json.dumps(response)
+        return response
 
     if params_method == 'today':
         today = date.today()
