@@ -103,6 +103,10 @@ def phrase_response_week(week_name, meals):
 
 def phrase_error(error_msg):
     response_err = {
-        'ERROR': error_msg
+        'message': '400 Bad Request: ' + error_msg
     }
-    return response_err
+    response = {
+        'statusCode': 400,
+        'body': json.dumps(response_err)
+    }
+    return response
