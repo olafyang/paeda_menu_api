@@ -6,7 +6,7 @@ The API is hosted on AWS Lambda in a docker container with AWS API Gateway as th
 ## API url:
 `https://rk41bvtelc.execute-api.eu-central-1.amazonaws.com/paeda_menu_api/get`
 
-Make query by adding eitehr one of following parameters to the url:
+Make query by adding either one of following parameters to the url:
 
 - **`method=today`**: return today's menu
   - For example:
